@@ -23,6 +23,7 @@
 /node_modules
 /yarn-error.log
 
+/public/system
 /public/assets
 .byebug_history
 
@@ -33,3 +34,5 @@
 /node_modules
 yarn-debug.log*
 .yarn-integrity
+
+.rbenv-vars

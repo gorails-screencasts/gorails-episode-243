@@ -80,3 +80,6 @@ gem 'omniauth-github', '~> 1.3'
 gem 'whenever', require: false
 gem 'friendly_id', '~> 5.1.0'
 gem 'sitemap_generator', '~> 6.0', '>= 6.0.1'
+
+gem 'paperclip'
+gem 'aws-sdk-s3'
