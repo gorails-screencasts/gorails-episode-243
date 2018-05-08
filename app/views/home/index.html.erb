@@ -2,7 +2,10 @@
 <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
 
 <% if user_signed_in? %>
-  <%= image_tag current_user.avatar.url(:medium) %>
-  <%= image_tag current_user.avatar.url(:thumb) %>
-  <%= image_tag current_user.avatar.url, class: "img-fluid" %>
+  <%= image_tag current_user.avatar.variant resize: "300x300>" %>
+  <%= image_tag current_user.avatar.variant resize: "100x100>" %>
+  <%= image_tag current_user.avatar, class: "img-fluid" %>
+  <%#= image_tag current_user.avatar.url(:medium) %>
+  <%#= image_tag current_user.avatar.url(:thumb) %>
+  <%#= image_tag current_user.avatar.url, class: "img-fluid" %>
 <% end %>
